@@ -1,0 +1,108 @@
+<!-- 
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Nhạc Tự Động Phát</title>
+    <style>
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
+    video {
+        position: fixed;
+        top: 0;
+        left: 0;
+        min-width: 100%;
+        min-height: 100%;
+        object-fit: cover;
+    }
+
+    .hidden-controls {
+        z-index: 0;
+    }
+    .cute{
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        height: 4000px;
+        background-color: gray;
+        z-index: 10;
+        
+    }
+</style>
+
+</head>
+<body>
+    <video id="myVideo" autoplay loop class="aa" controls class="hidden-controls">
+        <source src="Happy Birthday Remix 2020 - Bản Nhạc Của HeineKen Đang Được Sử Dụng Nhiều Trên TikTok.mp4" type="video/mp4">
+        Your browser does not support the video element.
+    </video>
+
+    <div class="cute">
+        <h1> HAPPY BIRTHDAY 🎁🎁🎁</h1>
+    </div>
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Chúc Mừng Sinh Nhật</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            overflow: hidden; /* Loại bỏ thanh cuộn */
+        }
+
+        video {
+            position: fixed;
+            top: 0;
+            left: 0;
+            min-width: 100%;
+            min-height: 100%;
+            object-fit: cover;
+        }
+
+        .hidden-controls {
+            display: none; /* Ẩn điều khiển và thanh tiến trình */
+        }
+
+        .birthday-container {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.7); /* Màu nền với độ trong suốt */
+            z-index: 1; /* Đặt lớp trên cùng */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .birthday-text {
+            font-size: 24px; /* Kích thước chữ */
+            color: white; /* Màu chữ */
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <video id="myVideo" autoplay loop class="aa hidden-controls">
+        <source src="Happy Birthday Remix 2020 - Bản Nhạc Của HeineKen Đang Được Sử Dụng Nhiều Trên TikTok.mp4" type="video/mp4">
+        Your browser does not support the video element.
+    </video>
+
+    <div class="birthday-container">
+        <div class="birthday-text">
+            <h1>Chúc Mừng Sinh Nhật! 🎉🎂🥳</h1>
+        </div>
+    </div>
+</body>
+</html>
+
+
+
